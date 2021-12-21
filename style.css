@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    background-color: #3161E0;
+}
+
+.container {
+    border: 1px solid black;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.main-menu li {
+    display: inline-block;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: currentColor;
+}
+
+.col {
+    border: 1px solid red;
+    float: left;
+}
+
+.row::after {
+    display: block;
+    clear: both;
+    content: '';
+}
